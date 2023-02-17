@@ -1,0 +1,623 @@
+{
+  "name": "Corpus",
+  "locale": "en-US",
+  "contextData": {},
+  "entities": {
+    "celestial_body": {
+      "options": {
+        "mercury": [
+          "Mercury"
+        ],
+        "venus": [
+          "Venus"
+        ],
+        "earth": [
+          "Earth"
+        ],
+        "mars": [
+          "Mars"
+        ],
+        "jupiter": [
+          "Jupiter"
+        ],
+        "saturn": [
+          "Saturn"
+        ],
+        "uranus": [
+          "Uranus"
+        ],
+        "neptune": [
+          "Neptune"
+        ],
+        "pluto": [
+          "Pluto"
+        ],
+        "moon": [
+          "Moon"
+        ],
+        "phobos": [
+          "Phobos"
+        ],
+        "deimos": [
+          "Deimos"
+        ],
+        "io": [
+          "Io"
+        ],
+        "europa": [
+          "Europa"
+        ],
+        "ganymede": [
+          "Ganymede"
+        ],
+        "callisto": [
+          "Callisto"
+        ],
+        "amalthea": [
+          "Amalthea"
+        ],
+        "himalia": [
+          "Himalia"
+        ],
+        "elara": [
+          "Elara"
+        ],
+        "pasiphae": [
+          "Pasiphae"
+        ],
+        "sinope": [
+          "Sinope"
+        ],
+        "lysithea": [
+          "Lysithea"
+        ],
+        "carme": [
+          "Carme"
+        ],
+        "ananke": [
+          "Ananke"
+        ],
+        "leda": [
+          "Leda"
+        ],
+        "thebe": [
+          "Thebe"
+        ],
+        "adrastea": [
+          "Adrastea"
+        ],
+        "metis": [
+          "Metis"
+        ],
+        "callirrhoe": [
+          "Callirrhoe"
+        ],
+        "themisto": [
+          "Themisto"
+        ],
+        "megaclite": [
+          "Megaclite"
+        ],
+        "taygete": [
+          "Taygete"
+        ],
+        "chaldene": [
+          "Chaldene"
+        ],
+        "harpalyke": [
+          "Harpalyke"
+        ],
+        "kalyke": [
+          "Kalyke"
+        ],
+        "iocaste": [
+          "Iocaste"
+        ],
+        "erinome": [
+          "Erinome"
+        ],
+        "isonoe": [
+          "Isonoe"
+        ],
+        "praxidike": [
+          "Praxidike"
+        ],
+        "autonoe": [
+          "Autonoe"
+        ],
+        "thyone": [
+          "Thyone"
+        ],
+        "hermippe": [
+          "Hermippe"
+        ],
+        "aitne": [
+          "Aitne"
+        ],
+        "eurydome": [
+          "Eurydome"
+        ],
+        "euanthe": [
+          "Euanthe"
+        ],
+        "euporie": [
+          "Euporie"
+        ],
+        "orthosie": [
+          "Orthosie"
+        ],
+        "sponde": [
+          "Sponde"
+        ],
+        "kale": [
+          "Kale"
+        ],
+        "pasithee": [
+          "Pasithee"
+        ],
+        "hegemone": [
+          "Hegemone"
+        ],
+        "mneme": [
+          "Mneme"
+        ],
+        "aoede": [
+          "Aoede"
+        ],
+        "thelxinoe": [
+          "Thelxinoe"
+        ],
+        "arche": [
+          "Arche"
+        ],
+        "kallichore": [
+          "Kallichore"
+        ],
+        "helike": [
+          "Helike"
+        ],
+        "carpo": [
+          "Carpo"
+        ],
+        "eukelade": [
+          "Eukelade"
+        ],
+        "cyllene": [
+          "Cyllene"
+        ],
+        "kore": [
+          "Kore"
+        ],
+        "herse": [
+          "Herse"
+        ],
+        "s/2000 j11": [
+          "S/2000 J11"
+        ],
+        "s/2003 j2": [
+          "S/2003 J2"
+        ],
+        "s/2003 j3": [
+          "S/2003 J3"
+        ],
+        "s/2003 j4": [
+          "S/2003 J4"
+        ],
+        "s/2003 j5": [
+          "S/2003 J5"
+        ],
+        "s/2003 j9": [
+          "S/2003 J9"
+        ],
+        "s/2003 j10": [
+          "S/2003 J10"
+        ],
+        "s/2003 j12": [
+          "S/2003 J12"
+        ],
+        "s/2003 j15": [
+          "S/2003 J15"
+        ],
+        "s/2003 j16": [
+          "S/2003 J16"
+        ],
+        "s/2003 j18": [
+          "S/2003 J18"
+        ],
+        "s/2003 j19": [
+          "S/2003 J19"
+        ],
+        "s/2003 j23": [
+          "S/2003 J23"
+        ],
+        "s/2010 j1": [
+          "S/2010 J1"
+        ],
+        "s/2010 j2": [
+          "S/2010 J2"
+        ],
+        "s/2011 j1": [
+          "S/2011 J1"
+        ],
+        "s/2011 j2": [
+          "S/2011 J2"
+        ],
+        "mimas": [
+          "Mimas"
+        ],
+        "enceladus": [
+          "Enceladus"
+        ],
+        "tethys": [
+          "Tethys"
+        ],
+        "dione": [
+          "Dione"
+        ],
+        "rhea": [
+          "Rhea"
+        ],
+        "titan": [
+          "Titan"
+        ],
+        "hyperion": [
+          "Hyperion"
+        ],
+        "iapetus": [
+          "Iapetus"
+        ],
+        "phoebe": [
+          "Phoebe"
+        ],
+        "janus": [
+          "Janus"
+        ],
+        "epimetheus": [
+          "Epimetheus"
+        ],
+        "helene": [
+          "Helene"
+        ],
+        "telesto": [
+          "Telesto"
+        ],
+        "calypso": [
+          "Calypso"
+        ],
+        "atlas": [
+          "Atlas"
+        ],
+        "prometheus": [
+          "Prometheus"
+        ],
+        "pandora": [
+          "Pandora"
+        ],
+        "pan": [
+          "Pan"
+        ],
+        "methone": [
+          "Methone"
+        ],
+        "pallene": [
+          "Pallene"
+        ],
+        "polydeuces": [
+          "Polydeuces"
+        ],
+        "daphnis": [
+          "Daphnis"
+        ],
+        "anthe": [
+          "Anthe"
+        ],
+        "aegaeon": [
+          "Aegaeon"
+        ],
+        "ymir": [
+          "Ymir"
+        ],
+        "paaliaq": [
+          "Paaliaq"
+        ],
+        "tarvos": [
+          "Tarvos"
+        ],
+        "ijiraq": [
+          "Ijiraq"
+        ],
+        "suttungr": [
+          "Suttungr"
+        ],
+        "kiviuq": [
+          "Kiviuq"
+        ],
+        "mundilfari": [
+          "Mundilfari"
+        ],
+        "albiorix": [
+          "Albiorix"
+        ],
+        "skathi": [
+          "Skathi"
+        ],
+        "erriapus": [
+          "Erriapus"
+        ],
+        "siarnaq": [
+          "Siarnaq"
+        ],
+        "thrymr": [
+          "Thrymr"
+        ],
+        "narvi": [
+          "Narvi"
+        ],
+        "aegir": [
+          "Aegir"
+        ],
+        "bebhionn": [
+          "Bebhionn"
+        ],
+        "bergelmir": [
+          "Bergelmir"
+        ],
+        "bestla": [
+          "Bestla"
+        ],
+        "farbauti": [
+          "Farbauti"
+        ],
+        "fenrir": [
+          "Fenrir"
+        ],
+        "fornjot": [
+          "Fornjot"
+        ],
+        "hati": [
+          "Hati"
+        ],
+        "hyrrokkin": [
+          "Hyrrokkin"
+        ],
+        "kari": [
+          "Kari"
+        ],
+        "loge": [
+          "Loge"
+        ],
+        "skoll": [
+          "Skoll"
+        ],
+        "surtur": [
+          "Surtur"
+        ],
+        "jarnsaxa": [
+          "Jarnsaxa"
+        ],
+        "greip": [
+          "Greip"
+        ],
+        "tarqeq": [
+          "Tarqeq"
+        ],
+        "s/2004 s7": [
+          "S/2004 S7"
+        ],
+        "s/2004 s12": [
+          "S/2004 S12"
+        ],
+        "s/2004 s13": [
+          "S/2004 S13"
+        ],
+        "s/2004 s17": [
+          "S/2004 S17"
+        ],
+        "s/2006 s1": [
+          "S/2006 S1"
+        ],
+        "s/2006 s3": [
+          "S/2006 S3"
+        ],
+        "s/2007 s2": [
+          "S/2007 S2"
+        ],
+        "s/2007 s3": [
+          "S/2007 S3"
+        ],
+        "ariel": [
+          "Ariel"
+        ],
+        "umbriel": [
+          "Umbriel"
+        ],
+        "titania": [
+          "Titania"
+        ],
+        "oberon": [
+          "Oberon"
+        ],
+        "miranda": [
+          "Miranda"
+        ],
+        "cordelia": [
+          "Cordelia"
+        ],
+        "ophelia": [
+          "Ophelia"
+        ],
+        "bianca": [
+          "Bianca"
+        ],
+        "cressida": [
+          "Cressida"
+        ],
+        "desdemona": [
+          "Desdemona"
+        ],
+        "juliet": [
+          "Juliet"
+        ],
+        "portia": [
+          "Portia"
+        ],
+        "rosalind": [
+          "Rosalind"
+        ],
+        "belinda": [
+          "Belinda"
+        ],
+        "puck": [
+          "Puck"
+        ],
+        "caliban": [
+          "Caliban"
+        ],
+        "sycorax": [
+          "Sycorax"
+        ],
+        "prospero": [
+          "Prospero"
+        ],
+        "setebos": [
+          "Setebos"
+        ],
+        "stephano": [
+          "Stephano"
+        ],
+        "trinculo": [
+          "Trinculo"
+        ],
+        "francisco": [
+          "Francisco"
+        ],
+        "margaret": [
+          "Margaret"
+        ],
+        "ferdinand": [
+          "Ferdinand"
+        ],
+        "perdita": [
+          "Perdita"
+        ],
+        "mab": [
+          "Mab"
+        ],
+        "cupid": [
+          "Cupid"
+        ],
+        "triton": [
+          "Triton"
+        ],
+        "nereid": [
+          "Nereid"
+        ],
+        "naiad": [
+          "Naiad"
+        ],
+        "thalassa": [
+          "Thalassa"
+        ],
+        "despina": [
+          "Despina"
+        ],
+        "galatea": [
+          "Galatea"
+        ],
+        "larissa": [
+          "Larissa"
+        ],
+        "proteus": [
+          "Proteus"
+        ],
+        "halimede": [
+          "Halimede"
+        ],
+        "psamathe": [
+          "Psamathe"
+        ],
+        "sao": [
+          "Sao"
+        ],
+        "laomedeia": [
+          "Laomedeia"
+        ],
+        "neso": [
+          "Neso"
+        ],
+        "s/2004 n1": [
+          "S/2004 N1"
+        ],
+        "charon": [
+          "Charon"
+        ],
+        "nix": [
+          "Nix"
+        ],
+        "hydra": [
+          "Hydra"
+        ],
+        "kerberos": [
+          "Kerberos"
+        ],
+        "styx": [
+          "Styx"
+        ],
+        "sun": [
+          "Sun"
+        ]
+      }
+    }
+  },
+  "data": [
+    {
+      "intent": "info.planet",
+      "utterances": [
+        "Tell me about %celestial_body%.",
+        "Do you know about %celestial_body%?",
+        "What can you tell me about %celestial_body%?"
+      ],
+      "answers": []
+    },
+    {
+      "intent": "ask.size.comparison",
+      "utterances": [
+        "How big is %celestial_body% compared to %celestial_body%.",
+        "Is %celestial_body% bigger than %celestial_body%?",
+        "Compare %celestial_body% to %celestial_body% in terms of size."
+      ],
+      "answers": []
+    },
+    {
+      "intent": "ask.distance",
+      "utterances": [
+        "How far away is %celestial_body%?"
+      ],
+      "answers": []
+    },
+    {
+      "intent": "ask.moons.count",
+      "utterances": [
+        "How many moons does %"
+      ],
+      "answers": []
+    },
+    {
+      "intent": "ask.actions",
+      "utterances": [
+        "What can you do?",
+        "How to use you?",
+        "What are you good for?",
+        "What can I ask?"
+      ],
+      "answers": [
+        "I can tell you about planets and moons!",
+        "I can measure the distance between any celestial body in the solar system! [!TODO]",
+        "I can define difficult terms! [!TODO]",
+        "I can change the theme of this website! Just ask! [!TODO]",
+        "I can list the number of moons of any planet! [!TODO]",
+        "I can do a barrel roll! [!TODO]"
+      ]
+    }
+  ]
+}

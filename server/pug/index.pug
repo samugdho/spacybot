@@ -1,0 +1,25 @@
+doctype html 
+html(lang='en')
+	head
+		include includes/head
+		title Spacy
+
+	body: layout.vertical
+		include includes/components
+		header: layout.vertical
+			h1.center Spacy
+			h2.center The Astronomy Chatbot 
+		main.fl1
+			card: layout.vertical 
+				card.inner.fl1#out-container
+					layout.vertical#out
+				input(type="text")
+		footer: layout.vertical.right
+			p 
+				span COMP
+				span 3710 
+				span Project
+			p 
+				span by
+				span Sadman 
+				span Mugdho

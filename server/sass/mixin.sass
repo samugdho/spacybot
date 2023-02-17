@@ -1,0 +1,27 @@
+@mixin -background-colors
+	color: $color-on-background
+	background: $color-background
+@mixin -text-ellipsis
+	overflow: hidden
+	white-space: nowrap
+	text-overflow: ellipsis
+@mixin -fast-transition
+	transition: all .3s cubic-bezier(0.18, 0.89, 0.32, 1.28)
+@mixin -full-radius
+	border-radius: 100em
+@mixin -half-bright
+	filter: brightness(0.5)
+@mixin -full-bright
+	filter: brightness(1)
+@mixin -very-bright
+	filter: brightness(1.2)
+@mixin -disabled
+	@include -half-bright
+	pointer-events: none
+@mixin -half-opaque
+	opacity: 0.5
+@mixin -opaque
+	opacity: 1
+@mixin -for-phone
+	@media (max-width : $-size-mobile) 
+		@content

@@ -1,0 +1,43 @@
+{
+  "name": "spacy",
+  "version": "1.0.0",
+  "description": "A chatbot for class",
+  "main": "./server/js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./server/js/index.js",
+    "dev-fast": "nodemon main",
+    "dev": "SET NODE_ENV=dev && nodemon main",
+    "sass": "sass --watch server/sass/style.sass:client/css/style.css"
+  },
+  "author": "me",
+  "license": "ISC",
+  "dependencies": {
+    "date-and-time": "^2.4.2",
+    "express": "^4.18.2",
+    "json-query": "^2.2.2",
+    "minimist": "^1.2.8",
+    "node-nlp": "^4.26.1",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "sass": "^1.58.0"
+  },
+  "nodemonConfig": {
+    "verbose": false,
+    "ignore": [
+      "**/node_modules/**",
+      "**/public/**",
+      "**/client/**",
+      "**/test/**",
+      "**/sass/**",
+      "**/ts/**",
+      "**/pug/**",
+      "**/sh/**",
+      "**/debug/**",
+      "**/data/**"
+    ],
+    "delay": 0
+  }
+}

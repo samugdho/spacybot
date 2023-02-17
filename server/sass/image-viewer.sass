@@ -1,0 +1,35 @@
+ImageViewer
+	background: transparent
+	position: fixed
+	width: 100vw
+	height: 100vh
+	left: 0
+	top: 0
+	& > *
+		position: absolute
+		left: 0
+		top: 0
+		bottom: 0
+		right: 0
+	& .screen-block
+		background: $color-shadow
+		z-index: 0
+	& .img
+		margin: $size-icon
+		@include -full-bright
+		max-width: unset
+	& .close
+		$pad : 5
+		$size : $-size-icon + $pad
+		height: $size
+		width: $size
+		padding: 0
+		@include -full-radius
+		@include -half-opaque
+		bottom: unset
+		left: unset
+		margin: $size-mid
+		&:hover
+			@include -opaque
+		& icon
+			font-size: $size - $pad

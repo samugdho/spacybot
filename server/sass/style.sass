@@ -1,0 +1,206 @@
+@import mixin
+@import root
+@import image-viewer
+
+
+	
+	
+
+::-webkit-scrollbar
+	$scroll-size : calc($-size-tiny / 2)
+	width: $scroll-size
+	height: $scroll-size
+
+::-webkit-scrollbar-track
+	background: transparent
+
+::-webkit-scrollbar-thumb
+	background: $color-primary
+	&:hover
+		@include -very-bright
+
+.hide
+	display: none!important
+	visibility: hidden!important
+	opacity: 0
+	pointer-events: none
+
+html, body
+	height: 100vh
+	width: 100vw
+	overflow: hidden 
+body
+	margin: 0
+	@include -background-colors
+	font-family: $font-regular
+	& .center
+		text-align: center
+	& .right
+		text-align: end
+	& *
+		margin: $size-tiny
+h1, h3, h5
+	font-family: $font-heading
+h2, h4, h6
+	font-family: $font-heading-light
+label
+	margin-bottom: 0
+	margin-left: $size-mid
+	font-size: smaller
+input, button
+	font-family: $font-regular
+	font-size: $size-mid
+	padding-left: $size-mid
+	border: solid
+	&.disabled
+		@include -disabled
+input
+	background: $color-background
+	border-color: $color-background
+	color: $color-primary
+	border-radius: $size-thumbnail
+	line-height: $size-icon
+	&::placeholder
+		color: $color-primary
+	&.disabled
+		background: transparent
+		border: dashed $color-primary
+	&:focus-visible
+		outline: solid $color-primary
+		
+button
+	@include -text-ellipsis
+	@include -fast-transition
+	border-radius: $size-tiny
+	padding: 0 $size-small
+	min-height: $size-icon
+	background: $color-primary
+	border-color: $color-primary
+	color: $color-on-primary
+	cursor: pointer
+	max-width: $-size-thumbnail + $-size-touch
+	&:hover
+		@include -very-bright
+	&:active
+		@include -half-bright
+	@include -for-phone
+		max-width: unset
+// custom element
+switch
+	position: relative
+	max-width: $size-touch
+	width: $size-touch
+	display: inline-block
+	align-self: center
+	& track
+		@include -fast-transition
+		@include -full-radius
+		display: block
+		background: $color-background
+		height: $size-mid
+	& thumb
+		@include -half-bright
+		@include -fast-transition
+		@include -full-radius
+		position: absolute
+		top: $-size-tiny * -1
+		left: 0
+		width: $-size-mid + $-size-small
+		height: $-size-mid + $-size-small
+		background: $color-primary
+		&:hover
+			@include -very-bright
+	&[status='on']
+		track
+			background: $color-primary
+			@include -half-bright
+
+		thumb
+			left: calc(100% - $size-icon)
+			@include -full-bright
+		
+
+.img
+	@include -fast-transition
+	@include -half-bright
+	min-width: $size-thumbnail
+	border-radius: $size-tiny
+	max-width: $-size-thumbnail * 2
+	display: flex
+	align-items: center
+	justify-content: center
+	@include -for-phone
+		max-width: unset
+	&:hover
+		@include -full-bright
+	& img
+		padding: 1vw
+		border-radius: $size-tiny
+		background: $color-on-surface
+		max-width: calc(100% - 2vw)
+		max-height: calc(100% - 2vw)
+		object-fit: cover
+		margin: 0
+
+code
+	@include -background-colors
+	font-family: $font-mono
+	border-radius: $size-tiny
+	padding: $size-tiny $size-mid
+layout
+	justify-content: center
+	height: 100%
+	display: flex
+	flex-wrap: wrap
+	margin: 0
+	&.vertical
+		flex-direction: column
+	& > *
+		flex: 0
+	@for $i from 1 through 20
+		& > .fl#{$i}
+			flex: $i
+		 
+card
+	display: block
+	background: $color-surface
+	color: $color-on-surface
+	margin: $size-small
+	padding: $size-tiny
+	border-radius: $size-small
+	box-shadow: 0 $size-tiny $size-small $color-shadow
+	min-height: $size-touch
+	height: calc(100% - ($size-small + $size-tiny) * 2)
+	& > *
+		margin: 0
+	&.inner
+		box-shadow: inset 0 $size-tiny $size-small $color-shadow
+		@include -background-colors
+
+@media screen and (max-width : $-size-mobile)
+	layout:not(.nov)
+		flex-direction: column
+#out-container
+	position: relative
+	overflow: hidden
+	& #out
+		position: absolute
+		height: 100%
+		justify-content: start
+		overflow-x: hidden
+		flex-wrap: nowrap
+.msg
+	max-width: 60%
+	align-self: end
+	background: $color-surface
+	border-radius: $size-mid
+	font-size: calc($size-mid + $size-small)
+	& img
+		width: 100%
+		// max-height: calc($size-thumbnail + $size-touch)
+	&.bot
+		align-self: start
+	@media screen and (max-width : $-size-mobile)
+		max-width: 90%
+		
+	
